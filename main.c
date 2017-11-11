@@ -1,4 +1,10 @@
-// Attiny13A
+/* Attiny13A
+*  Fuse bits:
+*    Low:  0x7A 
+*    High: 0xFF
+*  (Default + Divide clock by 8 internally [CKDIV8=0])
+*/
+
 #define F_CPU 9690000
 
 #include <avr/io.h>
